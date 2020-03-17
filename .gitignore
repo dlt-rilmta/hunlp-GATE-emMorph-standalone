@@ -4,4 +4,7 @@ hu.hfstol
 # older versions
 hu.hfstol_*
 
+# IntelliJ Idea
 .idea
+# Built binary
+*.jar

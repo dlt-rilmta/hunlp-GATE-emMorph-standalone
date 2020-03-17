@@ -22,3 +22,13 @@ OR
 <source> [TAB] "<unknown>"
 
 After all analyzations for a word (1 analyzation / line) it writes 1 empty line to the output.
+
+Note: The path of the compiled transducer (hu.hfstol) is derived from the config file!
+
+Note2: The path of the config file is relative to the current directory (i.e. concatenated to the path)!
+
+Note3: To debug in IntelliJ Idea add "JAR Application" in configs 
+
+# Build
+    cd hfst-wrapper
+    ant dist
