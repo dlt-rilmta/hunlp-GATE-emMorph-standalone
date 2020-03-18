@@ -1,3 +1,9 @@
+# Build isntructions
+    cd hfst-wrapper
+    ant dist
+
+# Usage
+
 This sub-project creates a wrapper around the hfst-lookup binary (OS dependent, written in C++).
 
 Can be used as Standalone or included in any java based project.
@@ -29,6 +35,3 @@ Note2: The path of the config file is relative to the current directory (i.e. co
 
 Note3: To debug in IntelliJ Idea add "JAR Application" in configs 
 
-# Build
-    cd hfst-wrapper
-    ant dist
